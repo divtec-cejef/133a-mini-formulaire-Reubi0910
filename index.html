@@ -23,6 +23,38 @@
 <form action="https://kode.ch/getpost" method="get">
     <ul>
         <li>
+            <select name="bg" id="bg">
+                <!-- option[value="$.jpg"]{Arrière-plan $}*10-->
+                <option value="1">Arrière-plan 1</option>
+                <option value="2">Arrière-plan 2</option>
+                <option value="3">Arrière-plan 3</option>
+                <option value="4">Arrière-plan 4</option>
+                <option value="5">Arrière-plan 5</option>
+                <option value="6">Arrière-plan 6</option>
+                <option value="7">Arrière-plan 7</option>
+                <option value="8">Arrière-plan 8</option>
+                <option value="9">Arrière-plan 9</option>
+                <option value="10">Arrière-plan 10</option>
+            </select>
+        </li>
+        <li>
+            <fieldset>
+                <legend>Genre</legend>
+                <label>
+                    <input name="genre" type="radio" value="h">
+                    <span>Homme</span>
+                </label>
+                <label>
+                    <input name="genre" type="radio" value="f">
+                    <span>Femme</span>
+                </label>
+                <label>
+                    <input name="genre" type="radio" value="n">
+                    <span>Ne se prononce pas</span>
+                </label>
+            </fieldset>
+        </li>
+        <li>
             <label for="email">E-mail</label>
             <input id="email" name="email" type="text" placeholder="nom.prenom@divtec.ch">
         </li>
